@@ -7,6 +7,14 @@
     text-align: center;
     border-radius: 5px;
     box-shadow: 5px 5px 5px aquamarine;
+    transition: width 0.15s ease-in-out;
+}
+
+.header:hover {
+    background-color: plum;
+    color: aqua;
+    width: 850px;
+    height: 250px;
 }
 
 .contactlist {
@@ -21,6 +29,26 @@
     align-items: center;
     gap: 2rem;
     margin: 0 2rem;
+}
+
+.horizontal__1:hover {
+    background-color: violet;
+    color: white;
+}
+
+.horizontal__2:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+.horizontal__3:hover {
+    background-color:coral;
+    color: white;
+}
+
+.horizontal__4:hover {
+    background-color: palegreen;
+    color: white;
 }
 
 .Education {
